@@ -3,8 +3,8 @@ package com.mvvm.androidarchitecturesample.store.presentation
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.mvvm.androidarchitecturesample.store.domain.repository.ProductsRepository
-import com.mvvm.androidarchitecturesample.store.util.Event
-import com.mvvm.androidarchitecturesample.store.util.EventBus.sendEvent
+import com.mvvm.androidarchitecturesample.util.Event
+import com.mvvm.androidarchitecturesample.util.EventBus.sendEvent
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow

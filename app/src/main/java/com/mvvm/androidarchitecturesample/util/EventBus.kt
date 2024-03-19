@@ -1,4 +1,4 @@
-package com.mvvm.androidarchitecturesample.store.util
+package com.mvvm.androidarchitecturesample.util
 
 import android.widget.Toast
 import kotlinx.coroutines.channels.Channel
@@ -21,5 +21,5 @@ object EventBus {
 }
 
 sealed interface Event{
-    data class Toast(val message:String):Event
+    data class Toast(val message:String): Event
 }

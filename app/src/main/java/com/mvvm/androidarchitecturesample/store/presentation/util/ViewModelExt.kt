@@ -2,7 +2,7 @@ package com.mvvm.androidarchitecturesample.store.presentation.util
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.mvvm.androidarchitecturesample.store.util.EventBus
+import com.mvvm.androidarchitecturesample.util.EventBus
 import kotlinx.coroutines.launch
 
 
